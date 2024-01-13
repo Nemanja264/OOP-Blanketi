@@ -1,0 +1,15 @@
+Supermarket
+3
+3
+Heba
+20
+3
+100
+Zvake
+19
+8
+58
+Snickers
+10
+4
+90
