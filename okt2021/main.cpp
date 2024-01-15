@@ -8,7 +8,7 @@ int main() {
 	try {
 		Skup<int>* s1 = new Skup<int>(4);
 		Skup<int>* s2 = new Skup<int>(6);
-		Skup<int>* s3 = new Skup<int>();
+		Skup<int>* s3 = new Skup<int>(10);
 
 		for (int i = 0; i < 4; i++) {
 			cout << "Unesi broj: ";
@@ -39,15 +39,15 @@ int main() {
 	}
 	try {
 		Skup<Student>* st1 = new Skup<Student>(3);
-		Skup<Student>* st2 = new Skup<Student>(3);
-		Skup<Student>* st3 = new Skup<Student>();
+		Skup<Student>* st2 = new Skup<Student>(4);
+		Skup<Student>* st3 = new Skup<Student>(7);
 
-		Student* student1 = new Student("Danilo", "Mitrovic", "Branko", 6.00);
-		Student* student2= new Student("Marija", "Mitrovic", "Sinisa", 8.00);
-		Student* student3 = new Student("Milos", "Todorovic", "Dusan", 7.00);
-		Student* student4 = new Student("Branka", "Ilic", "Stevan", 9.00);
-		Student* student5 = new Student("Darija", "Nikolic", "Dusan", 8.88);
-		Student* student6 = new Student("Andrija", "Milosevic", "Tadija", 9.5);
+		Student* student1 = new Student("Danilo", "Mitrovic", "Branko", (float)6.00);
+		Student* student2= new Student("Marija", "Mitrovic", "Sinisa", (float)8.00);
+		Student* student3 = new Student("Milos", "Todorovic", "Dusan", (float)7.00);
+		Student* student4 = new Student("Branka", "Ilic", "Stevan", (float)9.00);
+		Student* student5 = new Student("Darija", "Nikolic", "Dusan", (float)8.88);
+		Student* student6 = new Student("Andrija", "Milosevic", "Tadija", (float)9.5);
 
 		st1->Dodaj(*student1);
 		st1->Dodaj(*student2);
@@ -62,7 +62,6 @@ int main() {
 
 		*st3 = st1->Unija(*st1, *st2); // rezultat
 		st3->Ispisi();
-		
 	}
 	catch (const char* poruka) {
 		cout << poruka << endl;
