@@ -1,0 +1,17 @@
+Muzicki
+4
+Coldplay
+4
+80
+2.4
+
+Travis
+2
+60
+2.8
+
+Drake
+1
+100
+4.6
+
