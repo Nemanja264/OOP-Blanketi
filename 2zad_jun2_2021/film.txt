@@ -1,0 +1,25 @@
+101
+Inception
+2010
+8.8
+
+102
+The Shawshank Redemption
+1994
+9.3
+
+103
+La La Land
+2016
+8
+
+104
+Jurassic Park
+1993
+8.1
+
+105
+Now You See Me
+2013
+7.3
+
